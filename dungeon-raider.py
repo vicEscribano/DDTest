@@ -18,6 +18,39 @@ KOBOLD = {"HP": 3, "DG": 1}
 
 def main():
     print("Welcome to your dungeon simulator")
+
+def adventurers():
+    adventurers = int(input("How many adventurers go to play?"))
+    for number in range(0,adventurers):
+        name = input("What is your name?")
+        if len(name) >= 1 :
+          job = clase()
+        else:
+            print("Try again")
+        return adventurers
+        return name
+
+
+def clase():
+    clase = input("What is your class?")
+    while clase not in CLASSES:
+        print("Try again")
+        clase = input("What is your class?")
+    return clase
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     # You need to write a function. What recieve a number of adventurers. After you need to ask many times
     # as adventurers his name and his class. If his class is not allowed you need to ask again. The function need to
     # return the list of adventurers
