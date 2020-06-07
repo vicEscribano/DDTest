@@ -38,6 +38,8 @@ def clase():
         clase = input("What is your class?")
     return clase
 
+
+
     # You need to write a function. What recieve a number of adventurers. After you need to ask many times
     # as adventurers his name and his class. If his class is not allowed you need to ask again. The function need to
     # return the list of adventurers
